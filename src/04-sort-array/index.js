@@ -11,5 +11,17 @@
 // Explain:
 
 module.exports = function sortArray(arr) {
-  // TODO
+ 
+    const myArray = arr.filter(function (item) {
+      return !(parseInt(item) == item);
+    });
+    if(myArray.length>0){
+      throw new TypeError({'Invalid Token':'Invalid Token'});
+    }
+    if(arr.length==0){
+        return arr;
+    }
+    arr.sort((a, b) => a - b);
+    return arr;
+
 };

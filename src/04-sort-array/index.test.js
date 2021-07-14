@@ -1,4 +1,4 @@
-const sortArray = require('.');
+const sortArray = require('./index.js');
 
 describe('sortArray', () => {
   it('returns an empty array if the input is empty', () => {

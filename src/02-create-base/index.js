@@ -5,4 +5,9 @@
 
 module.exports = function createBase(integer) {
   // TODO
+  const addToInteger = (num)=>
+  {
+    return num + integer;
+  }
+  return addToInteger;
 };

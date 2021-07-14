@@ -1,4 +1,4 @@
-const fetchLukeSkywalker = require('.');
+const fetchLukeSkywalker = require('./index.js');
 
 describe('fetchLukeSkywalker', () => {
   it('returns correct information about Luke Skywalker', async () => {

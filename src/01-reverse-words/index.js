@@ -8,5 +8,5 @@
 // Explain:
 
 module.exports = function reverseWordsInSentence(input) {
-  // TODO
+  return input.split("").reverse().join("").split(" ").reverse().join(" ")
 };

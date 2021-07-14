@@ -1,4 +1,4 @@
-const createBase = require('.');
+const createBase = require('./index.js');
 
 describe('createBase', () => {
   it('returns a function that adds a specified number to the input for positive numbers', () => {
